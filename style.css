@@ -1,0 +1,14 @@
+#gradeForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 300px;
+}
+#btn {
+    height: 100ev;
+    width: 30ev;
+}
+#bmm {
+    height: 30px;
+}
