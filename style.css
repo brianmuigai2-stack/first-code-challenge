@@ -5,10 +5,21 @@
     flex-direction: column;
     width: 300px;
 }
-#btn {
+#bmm {
+    height: 30px;
+}
+
+#detector {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 300px;
+}
+.btn {
     height: 100ev;
     width: 30ev;
 }
-#bmm {
+#mmw {
     height: 30px;
 }
