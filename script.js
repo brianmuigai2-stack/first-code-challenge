@@ -1,8 +1,6 @@
 
 function marks(score) {
-    if (isNaN(score)) {
-        return "Please enter a valid number"
-    }else if (score > 100 || score < 0) {
+    if (score > 100 || score < 0) {
         return "Marks must be between 0 and 100"
     }else if (score > 79) {
         return "A";
@@ -30,32 +28,32 @@ function speed(velocity) {
   if (velocity <= 70) {
     return "Ok";
   }else if (velocity >70 && velocity < 75) {
-    return "points 0"
+    return "Demerit points 0"
   }
   else if (velocity >= 75 && velocity < 80){
-    return "Point: 1"; 
+    return "Demerit Point: 1"; 
   }else if (velocity >= 80 && velocity < 85) {
-    return "points: 2"
+    return "Demerit points: 2"
   }else if (velocity >= 85 && velocity < 90) {
-    return "points: 3"
+    return "emerit points: 3"
   }else if (velocity >= 90 && velocity < 95){
-    return "Point: 4"; 
+    return "Demerit Point: 4"; 
   }else if (velocity >= 95 && velocity < 100) {
-    return "points: 5"
+    return "Demerit points: 5"
   }else if (velocity >= 100 && velocity < 105) {
-    return "points: 6"
+    return "Demerit points: 6"
   }else if (velocity >= 105 && velocity < 110){
-    return "Point: 7"; 
+    return "Demerit Point: 7"; 
   }else if (velocity >= 110 && velocity < 115) {
-    return "points: 8"
+    return "Demerit points: 8"
   }else if (velocity >= 115 && velocity < 120) {
-    return "points: 9"
+    return "Demerit points: 9"
   }else if (velocity >= 120 && velocity < 125){
-    return "Point: 10"; 
+    return "Demerit Point: 10"; 
   }else if (velocity >= 125 && velocity < 130) {
-    return "points: 11"
+    return "Demerit points: 11"
   }else if (velocity >= 130 && velocity < 135) {
-    return "points: 12"
+    return "Demerit points: 12"
   }else if(velocity > 135) {
     return "License suspended"
   }
